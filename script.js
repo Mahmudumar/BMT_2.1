@@ -65,3 +65,12 @@ function handleEnter(ev) {
 
 bt.addEventListener("click", start)
 document.addEventListener("keypress", handleEnter)
+
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service_worker.js').then(
+            reg => console.log('Service Worker registered: ', reg)
+        ).catch(err => console.log('Service Worker registration failed:', err))
+    });
+}
