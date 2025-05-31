@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Blender, SVG Export for Grease Pencil - v1.0 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.0" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" width="1920px" height="1920px" viewBox="0 0 1920 1920">
+	<g id="blender_frame_1">
+		<g id="blender_object_tick">
+			<!--Layer: Lines-->
+			<g id="Lines">
+				<polyline stroke="#000000" stroke-opacity="1" fill="none" stroke-linecap="round" stroke-width="167.387451" points="126.778961,787.616211 177.498779,875.457153 228.218704,963.298035 278.938354,1051.138916 329.658234,1138.979858 380.378082,1226.820801 431.097961,1314.661621 481.817902,1402.502441 669.260803,1231.598633 856.703796,1060.694824 1044.146484,889.791016 1231.589478,718.887207 1419.032471,547.983276 1606.475098,377.079346 1793.918213,206.175781" />
+			</g>
+		</g>
+	</g>
+</svg>
