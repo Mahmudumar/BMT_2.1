@@ -71,18 +71,32 @@ body {
 }
 
 .helper{
+    margin: 20px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+.helper h2{
+text-align: center;
+color: #707070;
 
+}
 .helper p{
     text-align: center;
     color: #707070;
+    flex: 2;
+}
+
+.helper h2,.helper p{
+    padding-top: 20px;
 }
 .actions{
+    margin-left: 20px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 .next{
-    height: 50%;
+    height: 100%;
 }

@@ -3,6 +3,7 @@ const bigMsg = document.querySelector(".big-msg h1")
 const input = document.querySelector("#task")
 const area = document.querySelector("body > div > div.lower")
 const helper = document.querySelector(".helper p")
+const all_helper = document.querySelector(".helper")
 const dash = document.querySelector(".dashboard")
 
 function start() {
@@ -24,6 +25,8 @@ function start() {
 
         // remove that enter shortcut
         document.removeEventListener("keypress", handleEnter)
+
+        all_helper.remove()
     } else {
         helper.style.color = 'red'
     }
